@@ -1,4 +1,4 @@
 maths
 =====
 
-Molly's maths program
+Molly's maths program.
