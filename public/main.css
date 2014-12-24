@@ -1,0 +1,22 @@
+body {
+  background-color: #F1F7F7;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.left {
+  width: 30% !important;
+}
+
+.no-width {
+  width: 60% !important;
+  display: inline-block;
+}
+
+.has-success input {
+  background-color: #468847;
+  color: #fff;
+  font-weight: bolder;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "maths",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha",
+    "postinstall": "browserify -t [ reactify ] app/main.js -o public/build.js",
+    "build": "watchify -t [ reactify ] app/main.js -o public/build.js -v"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^6.3.2",
+    "mocha": "^2.0.1",
+    "ramda": "^0.8.0",
+    "react": "^0.12.1",
+    "reactify": "^0.17.0"
+  },
+  "devDependencies": {
+    "watchify": "^2.1.1"
+  }
+}

@@ -1,0 +1,5 @@
+--reporter spec
+--ui bdd
+--bail
+--check-leaks
+--recursive
