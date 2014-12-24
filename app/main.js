@@ -15,11 +15,11 @@ var SumList = React.createClass({
       return <Sum sum={sum} />
     });
 
-    return <div> 
-      <div className="col-lg-4 col-lg-offset-1">
+    return <div className="row"> 
+      <div className="col-md-6">
         { makeSumList(sums) }
       </div>
-      <div className="col-lg-4 col-lg-offset-1">
+      <div className="col-md-6">
         <div className="fixed">
           <h1>Molly's maths program!</h1>
           <h2>Time Spent</h2>
