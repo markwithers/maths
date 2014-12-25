@@ -16,10 +16,10 @@ var SumList = React.createClass({
     });
 
     return <div className="row"> 
-      <div className="col-md-6">
+      <div className="col-md-8 col-sm-8 col-xs-8">
         { makeSumList(sums) }
       </div>
-      <div className="col-md-6">
+      <div className="col-md-4 col-sm-4 col-xs-4">
         <div className="fixed">
           <h1>Molly's maths program!</h1>
           <h2>Time Spent</h2>
