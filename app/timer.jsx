@@ -29,7 +29,7 @@ var Timer = React.createClass({
   },
   render: function() {
     return (
-      <h3>{ toTime(this.state.secondsElapsed) }</h3>
+      <span>{ toTime(this.state.secondsElapsed) }</span>
     );
   }
 });

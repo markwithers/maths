@@ -16,24 +16,27 @@ var SumList = React.createClass({
       return <Sum sum={sum} />
     });
 
-    return <div className="row"> 
-      <div className="col-md-8 col-sm-8 col-xs-8">
-        { makeSumList(sums) }
-      </div>
-      <div className="col-md-4 col-sm-4 col-xs-4">
-        <div className="fixed">
-          <h1>Molly's maths program!</h1>
-          <h2>Time Spent</h2>
-          <Timer />
+    return <div> 
+      <nav className="navbar navbar-default navbar-fixed-top">
+        <div className="container-fluid">
+          <div className="navbar-header">
+            <h1>Molly's maths program!</h1>
+            <Timer />
+          </div>
+        </div>
+      </nav>
+      <div className="row"> 
+        <div className="col-md-8 col-sm-8 col-xs-8">
+          { makeSumList(sums) }
         </div>
       </div>
     </div>
   },
 
   componentDidMount: function() {
-    var myScroll = new IScroll('.fixed', {
+    /*var myScroll = new IScroll('.fixed', {
       snap: true
-    });
+    });*/
   }
 })
 
