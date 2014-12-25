@@ -6,6 +6,7 @@ var React = require('react');
 var Sum = require('./sum.jsx');
 var Timer =require('./timer.jsx');
 var r = require('ramda');
+var IScroll = require('iscroll');
 
 var SumList = React.createClass({
   render: function() {
@@ -27,6 +28,12 @@ var SumList = React.createClass({
         </div>
       </div>
     </div>
+  },
+
+  componentDidMount: function() {
+    var myScroll = new IScroll('.fixed', {
+      snap: true
+    });
   }
 })
 
