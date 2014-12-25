@@ -17,7 +17,7 @@ var SumList = React.createClass({
     });
 
     return <div> 
-      <nav className="navbar navbar-default navbar-fixed-top">
+      <nav className="navbar navbar-default navbar-fixed-bottom">
         <div className="container-fluid">
           <div className="navbar-header">
             <h1>Molly's maths program!</h1>
