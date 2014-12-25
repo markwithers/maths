@@ -20,6 +20,7 @@ var Sum = React.createClass({
         { this.props.sum }
       </label>
       <input
+        type="number"
         className="form-control no-width"
         onChange={this.onChange}
         value={this.state.text}
